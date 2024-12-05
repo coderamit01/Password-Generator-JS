@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0E0E11;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-wrapper {
+  width: 100%;
+  max-width: 500px;
+  color: #f3fafa;
+  background-color: #0c2327;
+  padding: 20px;
+  border: 1px solid #204a4f;
+  border-radius: 10px;
+}
+.app-wrapper h1 {
+  font-size: 40px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.app-wrapper input[type="text"] {
+  font-size: 18px;
+  width: 100%;
+  padding: 15px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #22585e;
+  color: #f3fafa;
+}
+.app-wrapper input[type="text"]::placeholder {
+  font-size: 18px;
+  background-color: #22585e;
+  color: #f3fafa;
+}
+.pass {
+  position: relative;
+}
+.copy {
+  font-size: 24px;
+  position: absolute;
+  left: 93%;
+  top: 13px;
+}
+
+.btn {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #22585e;
+  color: #f3fafa;
+  cursor: pointer;
+}
