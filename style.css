@@ -52,6 +52,7 @@ body {
   position: absolute;
   left: 93%;
   top: 13px;
+  cursor: pointer;
 }
 
 .btn {
@@ -67,4 +68,8 @@ body {
   background-color: #22585e;
   color: #f3fafa;
   cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+.btn:hover {
+  box-shadow: 5px 5px #00e8ff80;
 }
